@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Desafio 1 - Tabuada</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/favicon/favicon.svg" type="image/x-icon">
+  </head>
+
+  <body>
+
+    <div id="app">
+        <ul v-for="number in 10" v-if="number % 2 === 0">
+            <li>
+                5 x {{ number }} = {{ 5 * number }}
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+                data: {
+
+                }
+            })
+    </script>
+  </body>
+
+</html>
