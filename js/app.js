@@ -1,6 +1,13 @@
 const app = new Vue({
     el: '#app',
     data: {
-        isVisible: true
+        list: [
+            {text: 'item 1'},
+            {text: 'item 2'},
+            {text: 'item 2'},
+            {text: 'item 2'},
+            {text: 'item 2'},
+            {text: 'item 3'}            
+        ]
     }
 })
