@@ -11,16 +11,7 @@
   <body>
 
     <div id="app">
-      <ul>
-          <li v-for="(item, index) in list">
-              {{ index }} - {{ item.text }}
-          </li>
-      </ul>
-      <ul v-for="number in 5">
-          <li>
-              {{ number }}
-          </li>
-      </ul>
+      <div v-html="myHTML"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
